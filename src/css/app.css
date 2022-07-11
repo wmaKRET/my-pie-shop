@@ -37,6 +37,10 @@ a {
   cursor: pointer;
 }
 
+.header__item-link:hover {
+  color: white;
+}
+
 .footer {
   height: 100px;
   width: 100%;
