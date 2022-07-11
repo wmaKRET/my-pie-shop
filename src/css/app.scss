@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    padding: 0 1em;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+
+    &__item {
+        display: flex;
+        gap: 2em;
+        cursor: pointer;
+
+        &-link {
+
+        }
+    }
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background-color: red;
+
+    &__item {
+        margin: 0.25em 2em;
+        cursor: pointer;
+    }
+
+    &__githublink {
+        margin: 0 0 0.2em 0;
+        position: fixed;
+        bottom: 0;
+        cursor: pointer;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
