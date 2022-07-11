@@ -8,8 +8,8 @@ function Header(){
                 <Link to="/main" className="header__item-link">Home</Link>
             </div>
             <div className="header__item">
-                <p>Pies</p>
-                <p>Cupcakes</p>
+                <Link to="/pies" className="header__item-link">Pies</Link>
+                <Link to="/cupcakes" className="header__item-link">Cupcakes</Link>
             </div>
             <div className="header__item">
                 <Link to="/cart" className="header__item-link">Cart</Link>
