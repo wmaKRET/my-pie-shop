@@ -110,7 +110,18 @@ a {
   gap: 1em;
 }
 
-.main__random-img {
+.main__random-div {
+  position: relative;
+}
+
+.main__random-div-title {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: white;
+}
+
+.main__random-div-img {
   max-height: 100%;
   max-width: 100%;
   -o-object-fit: cover;

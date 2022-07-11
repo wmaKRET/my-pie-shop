@@ -83,11 +83,23 @@ a {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1em;
 
-        &-img {
-            max-height: 100%;
-            max-width: 100%;
-            object-fit: cover;
+        &-div {
+            position: relative;
+
+            &-title {
+                position: absolute;
+                top: 5px;
+                left: 5px;
+                color: white;
+            }
+
+            &-img {
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: cover;
+            }
         }
+
     }
 
     &__special-deal {

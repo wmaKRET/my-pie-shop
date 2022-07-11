@@ -1,26 +1,12 @@
-import React from "react"
+import React, { useContext } from "react"
+
+import MainRandom from "../components/MainRandom"
 
 function Main(){
     return (
         <main className="main">
             <h2 className="main__title">Try something new!</h2>
-            <div className="main__random">
-                <img 
-                    src="/img/pie_test.jpg" 
-                    alt="pie"
-                    className="main__random-img"
-                />
-                <img 
-                    src="/img/pie_test.jpg" 
-                    alt="pie"
-                    className="main__random-img"
-                />
-                <img 
-                    src="/img/pie_test.jpg" 
-                    alt="pie"
-                    className="main__random-img"
-                />
-            </div>
+            <MainRandom />
             <h2 className="main__title">Today's special!</h2>
             <div className="main__special-deal">
                 <img 
