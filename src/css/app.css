@@ -107,6 +107,7 @@ a {
 
 .main__random-div {
   position: relative;
+  overflow: hidden;
 }
 
 .main__random-div-title {
@@ -200,13 +201,6 @@ a {
   position: relative;
   overflow: hidden;
   border: 2px solid red;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-}
-
-.products__card.visible {
-  opacity: 100%;
 }
 
 .products__card-title {

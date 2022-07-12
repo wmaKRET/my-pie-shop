@@ -4,8 +4,8 @@ import { Context } from "../Context"
 import ProductsImage from "../components/images/ProductsImage"
 
 function Products(){
-    const [showPies, setShowPies] = useState(false)
-    const [showCupcakes, setShowCupcakes] = useState(false)
+    const [showPies, setShowPies] = useState(true)
+    const [showCupcakes, setShowCupcakes] = useState(true)
     const { bakeryItems } = useContext(Context)
 
     const pieElements = bakeryItems
