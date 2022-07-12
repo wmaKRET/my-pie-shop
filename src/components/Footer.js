@@ -14,7 +14,6 @@ function Footer(){
             <div className="footer__item">
                 <p>Contact</p>
             </div>
-            <a className="footer__githublink" href="https://github.com/wmaKRET/">wmaKRET</a>
         </footer>
     )
 }

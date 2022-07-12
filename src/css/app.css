@@ -43,10 +43,7 @@ a {
 }
 
 .footer {
-  height: 80px;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
+  padding: 1em 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,22 +64,15 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
   margin: 0.25em 2em;
   cursor: pointer;
 }
 
 .footer__item-link:hover {
   color: white;
-}
-
-.footer__githublink {
-  margin: 0 0 0.2em 0;
-  position: fixed;
-  bottom: 0;
-  cursor: pointer;
 }
 
 .container {
