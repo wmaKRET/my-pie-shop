@@ -151,7 +151,6 @@ a {
 }
 
 .products {
-  max-width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,17 +187,16 @@ a {
 }
 
 .products__item-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   gap: 0.5em;
 }
 
 .products__card {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   position: relative;
   border: 2px solid blue;
 }
@@ -219,6 +217,17 @@ a {
   padding: 0.2em;
   background-color: blue;
   color: white;
+}
+
+.products__card-ingredients {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  left: 10px;
+  padding: 0.2em;
+  background-color: blue;
+  color: white;
+  text-align: justify;
 }
 
 .products__card-img {
