@@ -8,11 +8,13 @@ function Main(){
     return (
         <main className="main">
             <h2 className="main__title">Try something new!</h2>
-                <MainRandom />
+            <MainRandom />
             <h2 className="main__title">Today's special!</h2>
-                <MainSpecial />
-            <h2 className="main__title">Order again!</h2>
-                <MainReorder />
+            <MainSpecial />
+            {
+            //<h2 className="main__title">Order again!</h2>
+            //<MainReorder />
+            }
         </main>
     )
 }

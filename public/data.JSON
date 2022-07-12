@@ -6,7 +6,6 @@
                 "type": "pie",
                 "name": "Chocolate Pie",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 10
             },
@@ -15,7 +14,6 @@
                 "type": "pie",
                 "name": "Cheesecake",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 10
             },
@@ -24,7 +22,6 @@
                 "type": "pie",
                 "name": "Strawberry Cheesecake",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 10
             },
@@ -33,7 +30,6 @@
                 "type": "pie",
                 "name": "Apple Pie",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 10
             },
@@ -42,7 +38,6 @@
                 "type": "pie",
                 "name": "Cherry Pie",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 10
             },
@@ -51,7 +46,6 @@
                 "type": "pie",
                 "name": "Pumpkin Pie",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 10
             },
@@ -60,7 +54,6 @@
                 "type": "pie",
                 "name": "Blueberry Pie",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 10
             },
@@ -69,7 +62,6 @@
                 "type": "pie",
                 "name": "Black Forest Cake",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 10
             },
@@ -78,7 +70,6 @@
                 "type": "pie",
                 "name": "Chocolate Cake",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 10
             },
@@ -87,7 +78,6 @@
                 "type": "cupcake",
                 "name": "Peanut Butter Cupcake",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 5
             },
@@ -96,7 +86,6 @@
                 "type": "cupcake",
                 "name": "Banana Cupcake",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 5
             },
@@ -105,7 +94,6 @@
                 "type": "cupcake",
                 "name": "Chocolate Cupcake",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 5
             },
@@ -114,7 +102,6 @@
                 "type": "cupcake",
                 "name": "Coffee Cupcake",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 5
             },
@@ -123,7 +110,6 @@
                 "type": "cupcake",
                 "name": "Carrot Cake Cupcake",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 5
             },
@@ -132,7 +118,6 @@
                 "type": "cupcake",
                 "name": "Lemon Cupcake",
                 "img_url": "/img/pie_test.jpg",
-                "description": "bla bla bla",
                 "ingredients": "ble ble ble",
                 "price": 5
             }

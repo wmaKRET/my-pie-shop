@@ -4,8 +4,7 @@ import { Routes, Route } from "react-router-dom"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Main from "./pages/Main"
-import Pies from "./pages/Pies"
-import Cupcakes from "./pages/Cupcakes"
+import Products from "./pages/Products"
 import Cart from "./pages/Cart"
 
 import "./css/app.css"
@@ -17,8 +16,7 @@ function App() {
       <main className="container">
         <Routes>
           <Route exact path="/" element={<Main />} />
-          <Route path="/pies" element={<Pies />} />
-          <Route path="/cupcakes" element={<Cupcakes />} />
+          <Route path="/products" element={<Products />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </main>
