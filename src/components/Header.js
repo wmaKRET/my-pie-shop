@@ -5,7 +5,7 @@ function Header(){
     return (
         <header className="header">
             <div className="header__item">
-                <Link to="/main" className="header__item-link">Home</Link>
+                <Link to="/" className="header__item-link">Home</Link>
             </div>
             <div className="header__item">
                 <Link to="/pies" className="header__item-link">Pies</Link>

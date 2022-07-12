@@ -16,7 +16,7 @@ function App() {
       <Header />
       <main className="container">
         <Routes>
-          <Route path="/main" element={<Main />} />
+          <Route exact path="/" element={<Main />} />
           <Route path="/pies" element={<Pies />} />
           <Route path="/cupcakes" element={<Cupcakes />} />
           <Route path="/cart" element={<Cart />} />
