@@ -17,6 +17,7 @@ a {
   padding: 0 1em;
   position: fixed;
   top: 0;
+  z-index: 5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
