@@ -14,11 +14,14 @@ function ContextProvider({ children }){
     }, [])
 
     function addToCart(newItem) {
+        if (cartItems.filter(item => item.id === newItem.id).length < 5)
         setCartItems(prevItems => [...prevItems, newItem])
     }
 
     function removeFromCart(itemID) {
-        setCartItems(prevItems => prevItems.filter(item => item.id !== itemID))
+        const indexInArray = cartItems.indexOf(itemID)
+        console.log(indexInArray)
+        if (indexInArray > -1) setCartItems(prevItems => prevItems.splice(indexInArray, 1))
     }
 
     return (

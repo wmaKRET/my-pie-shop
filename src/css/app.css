@@ -271,6 +271,39 @@ a {
   opacity: 80%;
 }
 
+.products__card-panel {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  padding: 0.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 100%;
+  font-size: 2rem;
+  opacity: 0%;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.products__card-panel.hovered {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 80%;
+}
+
 .products__card-img {
   height: 100%;
   width: 100%;
@@ -278,5 +311,13 @@ a {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon-off {
+  cursor: not-allowed;
 }
 /*# sourceMappingURL=app.css.map */

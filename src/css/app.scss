@@ -178,7 +178,7 @@ a {
             color: black;
 
             transform: translateX(-100%);
-            @include hover-effect
+            @include hover-effect;
         }
 
         &-price {
@@ -190,7 +190,7 @@ a {
             color: black;
 
             transform: translateX(100%);
-            @include hover-effect
+            @include hover-effect;
         }
 
         &-ingredients {
@@ -204,7 +204,25 @@ a {
             text-align: justify;
 
             transform: translateY(100%);
-            @include hover-effect
+            @include hover-effect;
+        }
+
+        &-panel {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            inset: 0;
+            margin: auto;
+            padding: 0.2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            color: black;
+            border-radius: 100%;
+            font-size: 2rem;
+
+            @include hover-effect;
         }
 
         &-img {
@@ -214,4 +232,12 @@ a {
             object-position: top;
         }
     }
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.icon-off {
+    cursor: not-allowed;
 }

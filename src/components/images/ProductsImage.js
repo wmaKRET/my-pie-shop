@@ -1,9 +1,15 @@
-import React from "react"
+import React, { useContext } from "react"
 
 import useHover from "../../hooks/useHover"
+import { Context } from "../../Context"
+
+import AddIcon from "remixicon-react/AddLineIcon"
+import RemoveIcon from "remixicon-react/SubtractLineIcon"
 
 function ProductsImage({ item }){
     const [hovered, ref] = useHover()
+    const { cartItems, addToCart, removeFromCart } = useContext(Context)
+    const howManyCurrentItems = cartItems.filter(cartItem => cartItem.id === item.id).length
 
     const isHovered = hovered ? ' hovered' : ''
 
@@ -20,6 +26,17 @@ function ProductsImage({ item }){
                 alt={item.name}
                 className="products__card-img"
             />
+            <div className={`products__card-panel${isHovered}`}>
+                <RemoveIcon 
+                    className={howManyCurrentItems > 0 ? "icon" : "icon-off"} 
+                    onClick={() => removeFromCart(item.id)}
+                />
+                <p>{howManyCurrentItems}</p>
+                <AddIcon 
+                    className={howManyCurrentItems > 4 ? "icon-off" : "icon"}
+                    onClick={() => addToCart(item)}
+                />
+            </div>
         </div>
     )
 }
