@@ -4,7 +4,7 @@
             {
                 "id": "p01",
                 "type": "pie",
-                "name": "pie 1",
+                "name": "Chocolate Pie",
                 "img_url": "/img/pie_test.jpg",
                 "description": "bla bla bla",
                 "ingredients": "ble ble ble",
@@ -13,7 +13,7 @@
             {
                 "id": "p02",
                 "type": "pie",
-                "name": "pie 2",
+                "name": "Cheesecake",
                 "img_url": "/img/pie_test.jpg",
                 "description": "bla bla bla",
                 "ingredients": "ble ble ble",
@@ -22,7 +22,7 @@
             {
                 "id": "p03",
                 "type": "pie",
-                "name": "pie 3",
+                "name": "Strawberry Cheesecake",
                 "img_url": "/img/pie_test.jpg",
                 "description": "bla bla bla",
                 "ingredients": "ble ble ble",
@@ -31,7 +31,7 @@
             {
                 "id": "p04",
                 "type": "pie",
-                "name": "pie 4",
+                "name": "Apple Pie",
                 "img_url": "/img/pie_test.jpg",
                 "description": "bla bla bla",
                 "ingredients": "ble ble ble",
@@ -40,7 +40,43 @@
             {
                 "id": "p05",
                 "type": "pie",
-                "name": "pie 5",
+                "name": "Cherry Pie",
+                "img_url": "/img/pie_test.jpg",
+                "description": "bla bla bla",
+                "ingredients": "ble ble ble",
+                "price": 10
+            },
+            {
+                "id": "p06",
+                "type": "pie",
+                "name": "Pumpkin Pie",
+                "img_url": "/img/pie_test.jpg",
+                "description": "bla bla bla",
+                "ingredients": "ble ble ble",
+                "price": 10
+            },
+            {
+                "id": "p07",
+                "type": "pie",
+                "name": "Blueberry Pie",
+                "img_url": "/img/pie_test.jpg",
+                "description": "bla bla bla",
+                "ingredients": "ble ble ble",
+                "price": 10
+            },
+            {
+                "id": "p08",
+                "type": "pie",
+                "name": "Black Forest Cake",
+                "img_url": "/img/pie_test.jpg",
+                "description": "bla bla bla",
+                "ingredients": "ble ble ble",
+                "price": 10
+            },
+            {
+                "id": "p09",
+                "type": "pie",
+                "name": "Chocolate Cake",
                 "img_url": "/img/pie_test.jpg",
                 "description": "bla bla bla",
                 "ingredients": "ble ble ble",
@@ -49,7 +85,7 @@
             {
                 "id": "c01",
                 "type": "cupcake",
-                "name": "cupcake 1",
+                "name": "Peanut Butter Cupcake",
                 "img_url": "/img/pie_test.jpg",
                 "description": "bla bla bla",
                 "ingredients": "ble ble ble",
@@ -58,7 +94,7 @@
             {
                 "id": "c02",
                 "type": "cupcake",
-                "name": "cupcake 2",
+                "name": "Banana Cupcake",
                 "img_url": "/img/pie_test.jpg",
                 "description": "bla bla bla",
                 "ingredients": "ble ble ble",
@@ -67,7 +103,7 @@
             {
                 "id": "c03",
                 "type": "cupcake",
-                "name": "cupcake 3",
+                "name": "Chocolate Cupcake",
                 "img_url": "/img/pie_test.jpg",
                 "description": "bla bla bla",
                 "ingredients": "ble ble ble",
@@ -76,7 +112,7 @@
             {
                 "id": "c04",
                 "type": "cupcake",
-                "name": "cupcake 4",
+                "name": "Coffee Cupcake",
                 "img_url": "/img/pie_test.jpg",
                 "description": "bla bla bla",
                 "ingredients": "ble ble ble",
@@ -85,7 +121,16 @@
             {
                 "id": "c05",
                 "type": "cupcake",
-                "name": "cupcake 5",
+                "name": "Carrot Cake Cupcake",
+                "img_url": "/img/pie_test.jpg",
+                "description": "bla bla bla",
+                "ingredients": "ble ble ble",
+                "price": 5
+            },
+            {
+                "id": "c06",
+                "type": "cupcake",
+                "name": "Lemon Cupcake",
                 "img_url": "/img/pie_test.jpg",
                 "description": "bla bla bla",
                 "ingredients": "ble ble ble",

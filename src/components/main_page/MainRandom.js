@@ -1,7 +1,7 @@
 import React, { useContext } from "react"
 
-import { Context } from "../Context"
-import RandomImage from "./images/RandomImage"
+import { Context } from "../../Context"
+import RandomImage from "../images/RandomImage"
 
 function MainRandom(){
     const { bakeryItems } = useContext(Context)

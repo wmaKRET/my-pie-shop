@@ -1,8 +1,8 @@
-import React, { useContext } from "react"
+import React from "react"
 
-import MainRandom from "../components/MainRandom"
-import MainSpecial from "../components/MainSpecial"
-import MainReorder from "../components/MainReorder"
+import MainRandom from "../components/main_page/MainRandom"
+import MainSpecial from "../components/main_page/MainSpecial"
+import MainReorder from "../components/main_page/MainReorder"
 
 function Main(){
     return (
