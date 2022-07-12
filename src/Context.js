@@ -4,6 +4,7 @@ const Context = React.createContext()
 
 function ContextProvider({ children }){
     const [bakeryItems, setBakeryItems] = useState([])
+    const [cartItems, setCartItems] = useState([])
 
     useEffect(() => {
         fetch('./data.JSON')
@@ -12,10 +13,21 @@ function ContextProvider({ children }){
             .catch(error => console.log(error))
     }, [])
 
+    function addToCart(newItem) {
+        setCartItems(prevItems => [...prevItems, newItem])
+    }
+
+    function removeFromCart(itemID) {
+        setCartItems(prevItems => prevItems.filter(item => item.id !== itemID))
+    }
+
     return (
         <Context.Provider
             value={{
-                bakeryItems
+                bakeryItems,
+                cartItems,
+                addToCart,
+                removeFromCart
             }}
         >
             {children}
